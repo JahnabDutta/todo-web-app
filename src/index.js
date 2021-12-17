@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.css';
+import Todo from './components/todoheader';
+import Todobox from './components/todobox';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Todobox />
   </React.StrictMode>,
   document.getElementById('root')
 );
