@@ -9,7 +9,7 @@ import Todobox from './components/todobox';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Todobox />
+    <Todo />
   </React.StrictMode>,
   document.getElementById('root')
 );
